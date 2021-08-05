@@ -1,0 +1,136 @@
+/* ------------------------------------------------------------- */
+body {
+    background-image: linear-gradient( gray , #ffebff); 
+} 
+/* ------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------- */
+#global{
+    width: 100%;
+    height: 800px;
+}
+/* ------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------- */
+#img{
+    width: 30%;
+    height: 600px;
+    border: 1px;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+.img-cel{
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 40px;  
+}
+ /* Dar movimento a imagem */
+.img-cel:hover{
+    animation: gira 8s linear infinite; 
+ }
+ @keyframes gira {
+    to {
+        transform: rotate(50deg);
+    }
+}
+/* ------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------- */
+#login{
+    width: 400px;
+    height: 450px;
+    border: 1px solid #bdbbba;
+    float: right;
+    margin-top: -550px;
+    margin-right: 300px;
+    border-radius: 3px;
+}
+.form{
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 15px;
+    font-family: Arial;
+    border-radius: 3px;
+    border: 1px solid #F4A460;
+    padding: 5px;
+}
+.titulo-insta{
+    font-size: 60px;
+    font-family: Brush Script MT;
+    margin-left: 100px;
+    margin-top: 15px;
+    color: seashell;
+    text-shadow: -2px -2px 0px black;
+}
+.btn{
+    width: 330px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: #00CED1;
+    color: white;
+    border-radius: 3px;
+    border-color: #00CED1;
+}
+.ou{
+    width: 430px;
+    font-size: 10px;
+    font-family: Arial;
+    margin-left: 41px;
+    color: white;
+    margin-top: 20px;
+}
+.img-facebook{
+    width: 30px;
+    margin-left: 100px;
+    margin-right: 7px;
+    margin-top: 20px;
+}
+.link-facebook{
+    font-size: 15px;
+    font-family: Arial;
+    color: #4169E1;
+    text-decoration: none;
+    margin-top: -10px;
+}
+.link-senha{
+    font-size: 15px;
+    font-family: Arial;
+    color: #4169E1;
+    text-decoration: none;
+    margin-left: 135px;
+}
+/* ------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------- */
+#cad-conta{
+    width: 400px;
+    height: 70px;
+    border: 1px solid #bdbbba;
+    margin-top: -90px;
+    margin-left: 630px;
+}
+.texto-conta{
+    font-size: 13px;
+    font-family: Arial;
+    margin-left: 130px;
+}
+.link-conta{
+    font-size: 13px;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    margin-left: 165px;
+    color: #4169E1;
+}
+/* ------------------------------------------------------------- */
